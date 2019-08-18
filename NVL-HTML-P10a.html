@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="utf-8">
+   <title>NVL-HTML-P10a</title>
+  </head>
+  <body>
+  <form method="post" action="miservidor.php">
+     <div>
+	<label for="CP">Código Postal:</label>
+	<input id="CP" type="number">
+     </div>
+     <div>
+	<label for="satisfacción">Nivel de Satisfacción con el producto:</label>
+	<input type="radio" name="satisfacción" value="1"> 1
+	<input type="radio" name="satisfacción" value="2"> 2
+	<input type="radio" name="satisfacción" value="3"> 3
+	<input type="radio" name="satisfacción" value="4"> 4
+	<input type="radio" name="satisfacción" value="5"> 5
+     </div>
+     <div>
+	<label for="email">Email:</label>
+	<input id="email" type="text">
+     </div>
+     <div>
+	<label for="positivos">Puntos Positivos:</label>
+	<textarea id="positivos"></textarea>
+     </div>
+     <div>
+	<label for="negativos">Puntos Negativos:</label>
+	<textarea id="negativos"></textarea>
+     </div>
+     <div>
+	<label for="flexibilidad">Flexibilidad del Acero:</label>
+	<select id="flexibilidad">
+		<option value="excelente">Excelente</option>
+		<option value="bueno">Bueno</option>
+		<option value="regular">Regular</option>
+		<option value="pesimo">Pésimo</option>
+	</select>
+     </div>
+     <div>
+	<label for="humedad">Humedad del Giroscópio:</label>
+	<select id="humedad">
+		<option value="excelente">Excelente</option>
+		<option value="bueno">Bueno</option>
+		<option value="regular">Regular</option>
+		<option value="pesimo">Pésimo</option>
+	</select>
+     </div>
+     <div>
+	<label for="ductilidad">Ductilidad de la Cinta Automática:</label>
+		<input type="radio" name="ductilidad" value="excelente">Excelente</option>
+		<input type="radio" name="ductilidad" value="bueno">Bueno</option>
+		<input type="radio" name="ductilidad" value="regular">Regular</option>
+		<input type="radio" name="ductilidad" value="pesimo">Pésimo</option>
+     </div>
+     <div>
+	<label for="sintesis">Síntesis del Livermorio:</label>
+		<input type="radio" name="sintesis" value="excelente">Excelente</option>
+		<input type="radio" name="sintesis" value="bueno">Bueno</option>
+		<input type="radio" name="sintesis" value="regular">Regular</option>
+		<input type="radio" name="sintesis" value="pesimo">Pésimo</option>
+     </div>
+  </body>
+ </html>
